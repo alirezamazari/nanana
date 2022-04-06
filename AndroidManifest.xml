@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.chenar.com"
+    android:versionCode="1"
+    android:versionName="1.0.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="8" />
+
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:name=".G2"
+        android:icon="@drawable/instalicon"
+        android:label="Intelligent Nanny" >
+        <activity
+            android:name=".NoiseAlert"
+            android:label="Intelligent Nanny" >
+        </activity>
+        <activity
+            android:name=".soundrecorderrrrrformothersound"
+            android:label="Intelligent Nanny" >
+        </activity>
+        <!-- activity android:name="com.androidexample.noisealert.Preferences" /> -->
+        <activity
+            android:name=".mainActivity"
+            android:label="Intelligent Nanny" >
+        </activity>
+        <activity
+            android:name=".setiingActivity"
+            android:label="Intelligent Nanny" >
+        </activity>
+        <activity
+            android:name=".foralone"
+            android:label="Intelligent Nanny" >
+        </activity>
+        <activity
+            android:name=".fornotalone"
+            android:label="Intelligent Nanny" >
+        </activity>
+        <activity
+            android:name=".listsongforplay"
+            android:label="Intelligent Nanny" >
+        </activity>
+        <activity
+            android:name=".mainmain"
+            android:label="Intelligent Nanny" >
+            
+        </activity>
+        
+         <activity
+            android:name=".FirstFlashActivity"
+            android:label="Intelligent Nanny" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".aboutActivity"
+            android:label="Intelligent Nanny" >
+        </activity>
+        <activity
+            android:name=".playsoundforbabyActivity"
+            android:label="Intelligent Nanny" >
+        </activity>
+        <activity
+            android:name=".tozihatActivity"
+            android:label="Intelligent Nanny" >
+        </activity>
+    </application>
+
+</manifest>
